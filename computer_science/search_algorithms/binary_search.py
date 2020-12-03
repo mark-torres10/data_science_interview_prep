@@ -5,6 +5,8 @@
 	Takes as input a sorted array and an element, and checks to see
 	where the element is in the array, if it exists
 
+	Time complexity: O(logn)
+	
 """
 
 def merge(left_arr, right_arr):

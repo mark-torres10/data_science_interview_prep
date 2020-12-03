@@ -5,6 +5,9 @@
 	Implements merge sort algorithm
 	https://www.geeksforgeeks.org/merge-sort/
 
+	Time complexity: O(nlogn)
+	Space complexity: O(1)
+
 """
 
 def merge(left_arr, right_arr):

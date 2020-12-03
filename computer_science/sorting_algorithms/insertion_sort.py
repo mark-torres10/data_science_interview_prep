@@ -4,6 +4,11 @@
 
 	Implements insertion sort
 
+	Time complexity: O(N^2)
+	Space complexity: O(1)
+
+	https://iq.opengenus.org/insertion-sort-analysis/
+
 """
 
 def insertion_sort(arr):

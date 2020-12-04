@@ -26,9 +26,49 @@ From this link: https://medium.com/@hjegeorge/interview-question-1-a-biased-coin
 
 Source: https://www.nicksingh.com/posts/40-probability-statistics-data-science-interview-questions-asked-by-fang-wall-street
 
+This involves Bayesian probability. 
+
+What you want is P(Unfair | 5 tails), and to solve for that, what you can do is:
+
+P(Unfair | 5 tails) = [P(5 tails | Unfair) * P(Unfair)] / P(5 tails).
+
+P(5 tails) = P(5 tails | Fair)P(Fair) + P(5 tails | Unfair)P(Unfair)
+
+Plugging these in, you get 32/33 as your answer, or about 97%. 
+
 ### What is the expected number of coin flips needed to get two consecutive heads?
 
 Source: https://www.nicksingh.com/posts/40-probability-statistics-data-science-interview-questions-asked-by-fang-wall-street
+
+Let X be the result of getting 2 heads. 
+
+Let's say that you flip the coin once. Then:
+
+E[X] = (1/2)(1 + E[X|H]) + (1/2)(1 + E[X|T])
+
+We know that E[X|T] = E[X], since we'd just have to start over from scratch.
+
+Now, let's solve for E[X|H]. Just like with E[X], let's split up E[X|H] into its two possible outcomes:
+
+E[X|H] = (1/2)(1 + E[X|HH]) + (1/2)(1 + E[X|HT])
+
+We know that E[X|HH] = 0 (we're done, we got two heads in a row), and we also know that E[X|HT] = E[X] (since we'd have to start from scratch. Plugging those into E[X|H], we get:
+
+E[X|H] = (1/2)(1 + 0) + (1/2)(1 + E[X]) = 1 + (1/2)E[X]
+
+Plugging E[X|H] into our equation for E[X]:
+
+E[X] = (1/2)(1 + E[X|H]) + (1/2)(1 + E[X|T]). 
+
+Now, let's plug in E[X|H] = 1 + (1/2)E[X] and E[X|T] = E[X]:
+
+E[X] = (1/2)(1 + 1 + (1/2)E[X]) + (1/2)(1 + E[X]) = 1 + (1/4)E[X] + (1/2) + (1/2)E[X] = (3/2) + (3/4)E[X]
+
+Now, we have the following:
+
+E[X] = (3/2) + (3/4)E[X]
+
+Solving for E[X], we get E[X] = 6
 
 ### A and B are playing a game where A has n+1 coins, B has n coins, and they each flip all of their coins. What is the probability that A will have more heads than B?
 

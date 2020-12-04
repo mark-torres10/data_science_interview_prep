@@ -13,6 +13,10 @@ Here's a great gif (from https://hawkeslearningblog.files.wordpress.com/2016/03/
 
 ![Simulation of Central Limit Theorem](https://hawkeslearningblog.files.wordpress.com/2016/03/statistics-simulation.gif?w=665)
 
+If we look at, say, the distribution of means, what the CLT tells us is that if we take large enough samples (so, with large enough values for "n"), the mean of the means from the sample will converge (almost perfectly), as n approaches infinity, to the true population mean. Here's another great GIF that demonstrates that:
+
+![Simulation of convergence of means with CLT](http://rex-analytics.com/wp-content/uploads/2016/06/www.LLN_.gif)
+
 #### Practical examples
 
 Example 1: Coin flips
@@ -21,11 +25,12 @@ For example, if you flip a coin 20 times, you might, on your first set of 20 tos
 
 In another example, if we wanted to know the average height of people, we don't know how that's actually distributed in the population, so what we can do is take a bunch of samples of people, get their average height, and do that sampling over and over. If we record the means and plot the distribution of the means, the mean of that distribution should approximate the population mean. 
 
-Essentially, if we take a bunch of samples, the mean of the means will approximate the true population mean
+Essentially, if we take a bunch of samples, the mean of the means will approximate the true population mean 
 
-For example, if we were to 
 
 ### Law of Large Numbers
+
+i
 
 
 ### Expectation

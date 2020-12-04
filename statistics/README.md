@@ -72,9 +72,11 @@ Namely, the CLT tells us what happens if we (1) take a bunch of samples and (2) 
 ### Uniform distribution
 
 The PDF of the uniform distribution: 
+
 ![PDF of uniform distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Uniform_Distribution_PDF_SVG.svg/250px-Uniform_Distribution_PDF_SVG.svg.png)
 
 The CDF of the uniform distribution:
+
 ![CDF of uniform distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Uniform_cdf.svg/250px-Uniform_cdf.svg.png)
 
 #### Definition
@@ -91,10 +93,25 @@ We can use the uniform distribution for (continuous) events where each outcome i
 
 ### Normal distribution
 
+The PDF of the normal distribution is:
+
+![PDF of the normal distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/220px-Normal_Distribution_PDF.svg.png)
+
+The CDF of the normal distribution is:
+
+![CDF of the normal distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Normal_Distribution_CDF.svg/220px-Normal_Distribution_CDF.svg.png)
 
 #### Definition
 
+The normal distribution is a probability distribution that's often used as the "default" distribution (largely because of the implications of the CLT (see above), which says that no matter what the actual distribution is, if we take large enough samples, the samples, in their aggregate, will be normally distributed). 
+
+The standard equation for a normal distribution is: 
+
+![Equation of normal distribution](https://wikimedia.org/api/rest_v1/media/math/render/svg/3123d8dd4c3386afe9fac119fed2cfaf7ce9f336)
+
 #### Use cases
+
+As stated above, the normal distribution is popular for many use cases, because of the implications of the CLT. Often, if you don't know what distribution might be appropriate, then the normal distribution is likely your best prior (and, also, many models/techniques depend on data being normally distributed). 
 
 ### Binomial distribution
 

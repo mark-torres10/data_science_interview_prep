@@ -71,7 +71,16 @@ Namely, the CLT tells us what happens if we (1) take a bunch of samples and (2) 
 
 ### Uniform distribution
 
+![PDF of uniform distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Uniform_Distribution_PDF_SVG.svg/250px-Uniform_Distribution_PDF_SVG.svg.png)
+![CDF of uniform distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Uniform_cdf.svg/250px-Uniform_cdf.svg.png)
+
 #### Definition
+
+The uniform distribution is a probability distribution, between two bounds "a" and "b", that say that every outcome in between "a" and "b" is equally likely. 
+
+The equation for the uniform distribution is: 
+
+![Equation of uniform distribution](https://wikimedia.org/api/rest_v1/media/math/render/svg/b701524dbfea89ed90316dbc48c5b62954d7411c)
 
 #### Use cases
 

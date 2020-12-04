@@ -6,9 +6,37 @@ The central limit theorem
 
 ### Law of Large Numbers
 
+## Distributions
+
+### Uniform distribution
+
+#### Definition
+
+#### Use cases
+
+### Normal distribution
+
+#### Definition
+
+#### Use cases
+
+### Binomial distribution
+
+#### Definition
+
+#### Use cases
+
+### Geometric distribution
+
+#### Definition
+
+#### Use cases
+
+## Bayesian Statistics
+
 ### Bayes Theorem
 
-## Statistics Inference
+## Statistical Inference
 
 ### Hypothesis Testing
 

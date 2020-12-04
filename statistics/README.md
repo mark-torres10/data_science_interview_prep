@@ -2,9 +2,36 @@
 
 ### Central Limit Theorem
 
-The central limit theorem
+Here's a great introduction to the CLT: https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/
+
+#### Formal definition
+The central limit tells us that if we take samples from the population, the samples should be normally distributed, regardless of the distribution of the actual population.
+
+If we take a bunch of samples, each with size "n", from a population with mean = pop_mean and variance = pop_var, then the distribution of the samples will tend towards a normal distribution, whose mean approximates pop_mean and whose variance is proportional to the number of samples per sample. 
+
+#### Practical examples
+
+Example 1: Coin flips
+
+For example, if you flip a coin 20 times, you might, on your first set of 20 tosses, get 15 heads and 5 tails, and in your second set of tosses, get 9 heads and 11 tails. If you do this over and over and track the number of heads that you get, what you'll see is a normal distribution centered around x = 10 heads. 
+
+In another example, if we wanted to know the average height of people, we don't know how that's actually distributed in the population, so what we can do is take a bunch of samples of people, get their average height, and do that sampling over and over. If we record the means and plot the distribution of the means, the mean of that distribution should approximate the population mean. 
+
+Essentially, if we take a bunch of samples, the mean of the means will approximate the true population mean
+
+For example, if we were to 
 
 ### Law of Large Numbers
+
+
+### Expectation
+
+### Covariance
+
+### Variance
+
+### Standard deviation
+
 
 ## Distributions
 
@@ -72,6 +99,8 @@ For bivariate analyses, we want to compare two inputs, X1 and X2. The way we do 
 
 ### Margin of error
 
-###
+### Power
+
+## End of Study Guide
 
  

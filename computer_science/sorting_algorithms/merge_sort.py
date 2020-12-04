@@ -6,7 +6,7 @@
 	https://www.geeksforgeeks.org/merge-sort/
 
 	Time complexity: O(nlogn)
-	Space complexity: O(1)
+	Space complexity: O(N)
 
 """
 

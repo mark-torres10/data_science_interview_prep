@@ -9,6 +9,10 @@ The central limit tells us that if we take samples from the population, the samp
 
 If we take a bunch of samples, each with size "n", from a population with mean = pop_mean and variance = pop_var, then the distribution of the samples will tend towards a normal distribution, whose mean approximates pop_mean and whose variance is proportional to the number of samples per sample. 
 
+Here's a great gif (from https://hawkeslearningblog.files.wordpress.com/2016/03/statistics-simulation.gif?w=665) that shows the CLT in action. On the left is the true population distribution, and on the right is the distribution of the means of the samples (with different plots for different values of "n", the sample size). 
+
+![Simulation of Central Limit Theorem](https://hawkeslearningblog.files.wordpress.com/2016/03/statistics-simulation.gif?w=665)
+
 #### Practical examples
 
 Example 1: Coin flips

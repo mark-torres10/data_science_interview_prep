@@ -88,7 +88,9 @@ Let's start with what could happen after the first "n" tosses. After "n" tosses,
 In scenario 1, A will always win (since they've already got more heads than B) and in scenario 3, A will always lose (since even if they get heads on the next toss, they won't have more heads than B). By symmetry, P(Event 1) = P(Event 3). So, let's set X = P(Event 1) = P(Event 3). Now, let's set y = P(Event 2). Since these are the only three possible scenarios, we know that:
 
 P(Event 1) + P(Event 2) + P(Event 3) = 1
+
 X + Y + X = 1
+
 2X + Y = 1
 
 So, Y = 1-2X. 
@@ -103,6 +105,40 @@ So, the probability that A wins is 1/2.
 
 Source: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
 
+Let's take event A as the event where we see HHT before HTT. 
+
+So, let's toss the coin once and see what we get:
+
+P(A) = (1/2)P(A|H) + (1/2)P(A|T)
+
+Since a T on the first toss means that we can't get HHT or HTT, it's the equivalent of having to restart. Rewriting our equation, we get:
+
+P(A) = (1/2)P(A|H) + (1/2)P(A) => (1/2)P(A) = (1/2)P(A|H), or P(A) = P(A|H). 
+
+Now, we only have to solve for P(A|H). Let's do conditioning on the second toss now. 
+
+P(A|H) = (1/2)P(A|HH) + (1/2)P(A|HT)
+
+Let's take a look at P(A|HH):
+
+If we have P(A|HH), then to get HHT you need 1 T while to get HTT you need 2 Ts. So, it's impossible to get HTT without getting HHT first. Therefore, P(A|HH) = 1. 
+
+Now, let's take a look at P(A|HT):
+
+P(A|HT) = (1/2)P(A|HTH) + (1/2)P(A|HTT). 
+
+Looking at P(A|HTT), A already loses (since we see HTT before HHT), so P(A|HTT) = 0
+Looking at P(A|HTH), this is the same as having to start over with one H, so P(A|HTH) = P(A|H). 
+
+Therefore, P(A|HT) = (1/2)P(A|H) + 0
+
+Now, plugging that into our equation above:
+
+P(A|H) = (1/2)(1) + (1/2)( (1/2)P(A|H) ) = (1/2) + (1/4)P(A|H)
+
+P(A|H) = (1/2) + (1/4)P(A|H) = P(A) ==> (3/4)P(A|H) = (1/2), or P(A|H) = 2/3 = P(A)
+
+Therefore, the probability of seeing HHT before HTT is 2/3. 
 
 ###
 

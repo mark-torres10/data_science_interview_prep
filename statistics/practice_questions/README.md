@@ -13,6 +13,11 @@ Here are two ways to intuite the answer:
 (2) Using reasoning, we can reason that 7 should be the answer. Let's say that the answer is something above 7. Take 8 for example. If we roll a 1 on the first die, we already cannot get 8 as a sum. Therefore, for 8 and above, there's a possibility that, based off our first roll, we can't get the desired sum. If we take the numbers below 7, the same holds true. For example, if we want a sum of 6, then if we roll a 6 on the first die we already can't get 6 in total. The only sum where it's still possible to get that outcome regardless of what you roll on the first die is 7. 
 
 ### How would you determine if a die was unfair?
+
+The standard approach would be to use a chi-squared test. You want to determine the degree of confidence that you'd like in your answers, and then use a chi-squared test to determine the number of rolls that you'd need to determine, with a certain degree of confidence, if the die was unfair. 
+
+Source: https://math.stackexchange.com/questions/57624/how-many-rolls-do-i-need-to-determine-if-my-dice-are-fair
+
  
 ## Coin questions
 
@@ -73,6 +78,26 @@ Solving for E[X], we get E[X] = 6
 ### A and B are playing a game where A has n+1 coins, B has n coins, and they each flip all of their coins. What is the probability that A will have more heads than B?
 
 Source: https://www.nicksingh.com/posts/40-probability-statistics-data-science-interview-questions-asked-by-fang-wall-street
+
+Let's start with what could happen after the first "n" tosses. After "n" tosses, there are 3 possibilities:
+
+1. A has more heads than B
+2. A and B have the same number of heads
+3. A has less heads than B
+
+In scenario 1, A will always win (since they've already got more heads than B) and in scenario 3, A will always lose (since even if they get heads on the next toss, they won't have more heads than B). By symmetry, P(Event 1) = P(Event 3). So, let's set X = P(Event 1) = P(Event 3). Now, let's set y = P(Event 2). Since these are the only three possible scenarios, we know that:
+
+P(Event 1) + P(Event 2) + P(Event 3) = 1
+X + Y + X = 1
+2X + Y = 1
+
+So, Y = 1-2X. 
+
+Now, we know that in half of the times that Event 2 happens, A will win, since in half of the circumstances they'll get heads. As a result, the probability thatA wins is denoted by:
+
+P(Event 1) + (1/2)P(Event 2) = X + (1/2)Y = X + (1/2)(1 - 2X) = X + 1/2 - X = 1/2
+
+So, the probability that A wins is 1/2. 
 
 ###  A person flips an unbiased coin over and over again. Player A looks for the sequence HHT and player B looks for the sequence HTT. What is the probability that player A encounters their sequence first?
 

@@ -23,6 +23,12 @@ Source: https://math.stackexchange.com/questions/57624/how-many-rolls-do-i-need-
 
 ### How would you determine if a coin was unfair?
 
+You can use a binomial test (which is just using the binomial distribution formula): https://www.spss-tutorials.com/binomial-test/
+
+Here's the equation for the binomial distribution:
+
+![Equation for binomial distribution](https://www.onlinemathlearning.com/image-files/binomial-distribution-formula.png)
+
 ### If you have a biased coin, how could you simulate an unbiased coin?
 
 From this link: https://medium.com/@hjegeorge/interview-question-1-a-biased-coin-toss-9dc2af96321

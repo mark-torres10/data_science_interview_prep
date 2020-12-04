@@ -71,7 +71,10 @@ Namely, the CLT tells us what happens if we (1) take a bunch of samples and (2) 
 
 ### Uniform distribution
 
+The PDF of the uniform distribution: 
 ![PDF of uniform distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Uniform_Distribution_PDF_SVG.svg/250px-Uniform_Distribution_PDF_SVG.svg.png)
+
+The CDF of the uniform distribution:
 ![CDF of uniform distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Uniform_cdf.svg/250px-Uniform_cdf.svg.png)
 
 #### Definition
@@ -84,7 +87,10 @@ The equation for the uniform distribution is:
 
 #### Use cases
 
+We can use the uniform distribution for (continuous) events where each outcome is equally likely. 
+
 ### Normal distribution
+
 
 #### Definition
 

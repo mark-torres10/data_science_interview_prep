@@ -38,7 +38,19 @@ The central limit theorem
 
 ## Statistical Inference
 
-### Hypothesis Testing
+### Maximum likelihood
+
+### Univariate analysis
+
+### Bivariate analysis
+
+For bivariate analyses, we want to compare two inputs, X1 and X2. The way we do so depends on whether they're numeric, categorical, or some combination of the two, as well as the type of question that we'd like to answer
+
+####
+ 
+### Multivariate analysis
+
+## Hypothesis Testing
 
 ### T-distributions
 
@@ -50,4 +62,16 @@ The central limit theorem
 
 ### p-values
 
-### Confidence interval  
+### alpha
+
+### beta
+
+### Confidence interval 
+
+### Standard error
+
+### Margin of error
+
+###
+
+ 

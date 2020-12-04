@@ -48,7 +48,6 @@ class LinearRegressionByHand():
 			self.bias = self.bias - (learning_rate * np.mean(gradient))
 
 
-
 	def predict(self, X):
 		"""
 		Make predictions, based off existing weight matrix

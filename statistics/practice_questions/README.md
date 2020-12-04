@@ -174,6 +174,7 @@ From: https://towardsdatascience.com/12-probability-practice-questions-for-data-
 
 From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
 
+This is the classic three-door problem. You have the choice between two doors, the one that you chose and the one that they have. You know that one of those doors must be right. If you picked the right door the first time, then you should stay, but the probability of picking the right door the first time is only 1/3. If you picked the wrong door the first time, then you know that the other door must be the right door, and the probability of picking the wrong door the first time is 2/3. Therefore, since it's more likely that you picked the wrong door the first time than the right door, you're better off switching (with a winning probability at 2/3 rather than 1/3 had you stayed). 
 ### There are four boxes: A, B, C, D. John put a ball randomly in one of the four boxes and let David guess which box he put the ball. David guessed that the ball is in box A, but he was not sure. John gives him a hint that the ball is not in box B. At this time, what is the probability that the ball is in box C?
 
 From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9

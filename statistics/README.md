@@ -30,7 +30,13 @@ Essentially, if we take a bunch of samples, the mean of the means will approxima
 
 ### Law of Large Numbers
 
-i
+
+### What's the different between the Central Limit Theorem and the Law of Large Numbers?
+
+These two ideas are frequently mixed up, and they both do deal with the behavior of the sample mean and asymptotics. Here's a great visual explaining the difference in the two:
+
+![Difference between CLT and LLN](http://rex-analytics.com/wp-content/uploads/2016/06/CLT-vs-LLN.png)
+
 
 
 ### Expectation

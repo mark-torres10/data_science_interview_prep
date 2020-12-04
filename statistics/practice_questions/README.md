@@ -34,12 +34,48 @@ Source: https://www.nicksingh.com/posts/40-probability-statistics-data-science-i
 
 Source: https://www.nicksingh.com/posts/40-probability-statistics-data-science-interview-questions-asked-by-fang-wall-street
 
+###  A person flips an unbiased coin over and over again. Player A looks for the sequence HHT and player B looks for the sequence HTT. What is the probability that player A encounters their sequence first?
+
+Source: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
 
 ###
 
 ## Card questions
 
 ## Probability questions
+
+### Person A and Person B are playing archery together. Assume their abilities to fire the arrow at the target are exactly the same, and the probability of getting the target is 0.5 for both of them. Now that given A has fired 201 arrows and B has fired 200 arrows, what is the probability that A gets more targets than B?
+
+From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
+### During flu season, for a two-parent heterosexual family, suppose the probability that at least one parent has the flu is 17%; the probability that the father has the flu is 12%; the probability that both the parents have the flu is 6%, what is the probability that the mother has flu?
+
+From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
+### You have 40 cards in four colors, 10 reds, 10 greens, 10 blues, and ten yellows. Each color has a number from 1 to 10. When you pick two cards without replacement, what is the probability that the two cards are not in the same color and not in the same number?
+
+From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
+## Conditional / Bayesian probability:
+
+### (Part A): Mr. Jones has two children. The older child is a girl. What is the probability that both children are girls? (Part B): Mr. Smith has two children. At least one of them is a boy. What is the probability that both children are boys?
+
+From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
+### You are given a choice of three doors by an Angel. You can choose only one of the doors among the three. Out of these three doors, two contain nothing and one has a jackpot. After you choose one of the doors, the angel reveals one of the other two doors behind which there is nothing. The angel gives you an opportunity to change the door or you can stick with your chosen door. You don’t know behind which door we have nothing. Should you switch or does it not matter?
+
+From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
+### There are four boxes: A, B, C, D. John put a ball randomly in one of the four boxes and let David guess which box he put the ball. David guessed that the ball is in box A, but he was not sure. John gives him a hint that the ball is not in box B. At this time, what is the probability that the ball is in box C?
+
+From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
+### Suppose that in the world exist a very rare disease. The chance for anyone to have this disease is 0.1%. You want to know whether you are infected so you go take a test, and the test results come positive. The accuracy of the test is 99%, meaning that 99% of the people who tested positive actually have the disease. What is the chance that you are actually infected?
+
+From: https://towardsdatascience.com/12-probability-practice-questions-for-data-science-interviews-2ec5230304d9
+
+
 
 ## Pure statistics
 

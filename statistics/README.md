@@ -1,5 +1,23 @@
 ## Review of Statistics Terms
 
+### Basic Statistics
+
+### Combinatorics (i.e., how to count)
+
+Combinatorics is about either finding how many ways some objects can be chosen from a sample (e.g., how many ways can you pick 4 people from a room of 10 people?) or finding how many ways you can arrange some objects. 
+
+#### Inclusion-Exclusion Principle
+
+The inclusion-exclusion principle says that if you want to, for example, find P(A or B), then P(A or B) = P(A) + P(B) - P(A and B). If you add more events, then there are further generalizations (for example, P(A or B or C) = P(A) + P(B) + P(C) - P(A and B) - P(A and C) - P(B and C) + P(A and B and C)). 
+##### Example Question: How many numbers between 1 and 1000, including both, are divisible by 3 or 4?
+
+Number of numbers, between 1 and 1000, that are divisible by 3 = math.floor(1000 / 3) = 333
+Number of numbers, between 1 and 1000, that are divisible by 4 = 1000 / 4 = 250
+Number of numbers, between 1 and 1000, that are divisible by 3 and 4 = 1000 / (3 * 4) = 83
+
+Answer = 333 + 250 - 83 = 500
+
+
 ### Central Limit Theorem
 
 Here's a great introduction to the CLT: https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/

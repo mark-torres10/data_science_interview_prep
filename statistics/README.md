@@ -147,6 +147,11 @@ As stated above, the normal distribution is popular for many use cases, because 
 
 ### Bayes Theorem
 
+Here's a really interesting GIF of Bayes' Theorem in action:
+
+![GIF of Bayes' Theorem, as illustrated by dropping balls](https://steemitimages.com/DQmcEqtXLTjxgPAsnFjstxoFuFgxPJJh94MxnCbAUVjfC47/Bayes_theorem_visual.gif)
+
+
 ## Statistical Inference
 
 ### Maximum likelihood
@@ -187,4 +192,4 @@ For bivariate analyses, we want to compare two inputs, X1 and X2. The way we do 
 
 ## End of Study Guide
 
- 
+
